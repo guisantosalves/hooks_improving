@@ -1,10 +1,14 @@
-
 import './App.css';
+import CompA from './components/CompA'; // -> nothing
+import CompB from './components/CompB'; // -> redender D
+import CompC from './components/CompC'; // -> render E and render F
 
 function App() {
   return (
     <div className="App">
-      <h1>Improving my skill</h1>
+      <CompA />
+      <CompB />
+      <CompC />
     </div>
   );
 }
